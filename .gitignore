@@ -12,6 +12,10 @@ City of Austin - Draft Audit Summary to District 10/
 *.doc
 *.docx
 
+# Consolidated master copy of the report + open letter — maintainer's records only,
+# intentionally NOT published with the public site.
+7609-creekbluff-full-report.md
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
