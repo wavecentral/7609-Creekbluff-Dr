@@ -26,7 +26,10 @@ It was produced by the president of the Bull Creek Home Owners Association — t
 ### Confirmed (from public records)
 
 - The interior was gutted to the studs, with exposed wiring and no active permits, when first inspected in **October 2017**; the owner repeatedly told inspectors that plans would be "submitted by Friday" — they were not.
-- **Administrative Citation 002474** was posted in **July 2018** for work without a permit; the case then sat "awaiting an administrative hearing" through 2019.
+- **A recurring pattern: when an administrative hearing is scheduled, ownership transfers.**
+  - **2018** — Administrative hearing set (case **2018‑124155 CL** / Administrative Citation **002474**), notice sent **July 23, 2018** → property deeded **October 5, 2018** from Gilyan & Johnson Investments LLC to the Johnsons; the hearing case was closed.
+  - **2025** — With the property still non-compliant, **7609 Creekbluff LLC** was formed **July 2, 2025** → property deeded into it **July 30, 2025**.
+- **Complaints, closed as duplicate:** of **17 code complaints** logged on the property in 2017–2020, **14 were closed as "duplicate"** and 2 as "no violation found"; only one case (2017‑125062) ever carried substantive enforcement.
 - The chain of title runs **Gilyan & Johnson Investments LLC (2016) → Stephen W. & Angela D. Johnson (2018) → Michael Jeffrey Bueker (2022) → 7609 Creekbluff LLC (July 30, 2025)**.
 - **7609 Creekbluff LLC** (Texas SOS filing **#806107975**, formed **July 2, 2025**) lists **Steve W. Johnson** and **Mike Bueker** as its two Managing Members, at the same address. The property was deeded into the LLC **28 days** after it was formed.
 - An open **Notice of Violation CV‑2026‑067670** (June 2, 2026) is addressed to the LLC and carries a clause prohibiting sale/lease/transfer of the property, until compliance, without notifying the City and any transferee.
@@ -53,6 +56,8 @@ All confirmed claims are grounded in public records, published in [`/exhibits`](
 | G | Notices of Violation (2019) |
 | H | Express permit record (2019) |
 | I | City code inspection photos |
+| J | Complaint index (2017–2020) — 14 of 17 closed as "duplicate" |
+| K | Case & permit list (public search, 2026‑07‑11) — incl. Administrative Hearing case 2018‑124155 CL |
 
 Deeds are searchable through the [Travis County Clerk](https://countyclerk.traviscountytx.gov/); the parcel record is at [TCAD](https://www.traviscad.org/); the entity filing is at the [Texas SOS](https://www.sos.state.tx.us/corp/sosda/).
 
