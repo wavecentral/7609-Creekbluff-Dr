@@ -3,6 +3,7 @@
 **An independent, neighborhood-driven investigation into a gutted, unoccupied house at 7609 Creekbluff Dr, Austin, TX 78750 — and a decade of Austin code-enforcement cases that never resolved it.**
 
 🔗 **Read the report:** [wavecentral.github.io/7609-Creekbluff-Dr](https://wavecentral.github.io/7609-Creekbluff-Dr/)
+✉️ **Open letter to Council Member Duchen:** [/open-letter.html](https://wavecentral.github.io/7609-Creekbluff-Dr/open-letter.html)
 
 ---
 
