@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nine Years on Creekbluff — A Bull Creek Neighborhood Investigation</title>
+<meta name="description" content="A gutted, unoccupied house at 7609 Creekbluff Dr in Austin has drawn code complaints since 2017. Public records show enforcement stalling and closing while the title moved among the same hands — and, in 2025, into an LLC co-managed by the property's two prior owners of record.">
+<meta property="og:title" content="Nine Years on Creekbluff — 7609 Creekbluff Dr">
+<meta property="og:description" content="How a vacant, gutted house in a District 10 neighborhood outlasted a decade of code cases — and how the deed kept moving among the same people.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a1a;--ink-2:#4a4a4a;--ink-3:#6e6e6e;--paper:#faf9f7;--paper-warm:#f3f1ec;--rule:#d4d0c8;--rule-heavy:#1a1a1a;--accent:#8b2500;--accent-hover:#a83a14;--caution-bg:#fdf8e8;--caution-border:#c9a227;--confirmed-bg:#eef4ee;--confirmed-border:#4a7c59;--unconfirmed-bg:#fef5f0;--unconfirmed-border:#c97a3a;--display:'Playfair Display',Georgia,serif;--body:'Source Serif 4',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif;--mono:'JetBrains Mono','Courier New',monospace;--text-w:680px;--wide-w:920px;--full-w:1100px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px;scroll-behavior:smooth}@media(min-width:768px){html{font-size:18px}}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.75;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+::selection{background:rgba(139,37,0,.12)}
+.container{max-width:var(--text-w);margin:0 auto;padding:0 1.25rem}
+.container--wide{max-width:var(--wide-w)}.container--full{max-width:var(--full-w)}
+.topbar{border-bottom:1px solid var(--rule);padding:.6rem 0;font-family:var(--sans);font-size:.72rem;color:var(--ink-3);letter-spacing:.04em;text-transform:uppercase}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;max-width:var(--full-w)}
+.masthead{text-align:center;padding:1.5rem 0 1.2rem;border-bottom:3px double var(--rule-heavy)}
+.masthead__title{font-family:var(--display);font-size:1.1rem;font-weight:400;letter-spacing:.35em;text-transform:uppercase;color:var(--ink)}
+.masthead__sub{font-family:var(--sans);font-size:.65rem;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase;margin-top:.25rem}
+.last-updated{font-family:var(--sans);font-size:.68rem;color:var(--ink-3);text-align:center;padding:.8rem 0;border-bottom:1px solid var(--rule)}
+.last-updated time{font-weight:600;color:var(--ink-2)}
+.hero{padding:3rem 0 2.5rem;border-bottom:1px solid var(--rule);text-align:center}
+.hero__kicker{font-family:var(--sans);font-size:.7rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin-bottom:.75rem}
+.hero__headline{font-family:var(--display);font-size:2.6rem;font-weight:900;line-height:1.15;max-width:800px;margin:0 auto .9rem;color:var(--ink)}
+@media(max-width:600px){.hero__headline{font-size:1.8rem}}
+.hero__deck{font-family:var(--body);font-size:1.2rem;font-weight:300;line-height:1.55;color:var(--ink-2);max-width:640px;margin:0 auto 1.5rem;font-style:italic}
+.hero__byline{font-family:var(--sans);font-size:.78rem;color:var(--ink-3);line-height:1.6}
+.hero__byline strong{color:var(--ink);font-weight:600}
+article{padding:2.5rem 0 3rem}article p{margin-bottom:1.25rem}
+article p.lede{font-size:1.15rem;line-height:1.65;color:var(--ink)}
+article p.lede::first-letter{font-family:var(--display);font-size:3.8rem;float:left;line-height:.85;margin:.05em .12em 0 0;font-weight:900;color:var(--accent)}
+.section-rule{border:none;border-top:1px solid var(--rule);margin:2.5rem 0 2rem}
+h2.section-head{font-family:var(--display);font-size:1.65rem;font-weight:700;line-height:1.25;margin-bottom:1.2rem;color:var(--ink)}
+h3.sub-head{font-family:var(--sans);font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:.6rem;margin-top:2rem}
+.evidence-box{border-left:3px solid var(--confirmed-border);background:var(--confirmed-bg);padding:1.1rem 1.3rem;margin:1.5rem 0;border-radius:0 4px 4px 0}
+.evidence-box--caution{border-left-color:var(--caution-border);background:var(--caution-bg)}
+.evidence-box--unconfirmed{border-left-color:var(--unconfirmed-border);background:var(--unconfirmed-bg)}
+.evidence-box__label{font-family:var(--sans);font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:.4rem}
+.evidence-box__label--confirmed{color:var(--confirmed-border)}
+.evidence-box__label--caution{color:#a08620}
+.evidence-box__label--unconfirmed{color:var(--unconfirmed-border)}
+.evidence-box p{margin-bottom:.5rem;font-size:.92rem;line-height:1.6}.evidence-box p:last-child{margin-bottom:0}
+.pull-quote{border-top:2px solid var(--rule-heavy);border-bottom:2px solid var(--rule-heavy);padding:1.4rem 0;margin:2rem 0;text-align:center}
+.pull-quote p{font-family:var(--display);font-size:1.35rem;font-style:italic;line-height:1.45;color:var(--ink);max-width:580px;margin:0 auto}
+.timeline{margin:1.8rem 0;padding:0;list-style:none}
+.timeline li{position:relative;padding:.65rem 0 .65rem 2.2rem;border-left:2px solid var(--rule);font-size:.88rem;line-height:1.55}
+.timeline li::before{content:'';position:absolute;left:-5.5px;top:.85rem;width:9px;height:9px;border-radius:50%;background:var(--accent);border:2px solid var(--paper)}
+.timeline li.muted::before{background:var(--ink-3)}
+.timeline .tl-date{font-family:var(--sans);font-weight:700;font-size:.75rem;color:var(--accent);display:block;margin-bottom:.1rem}
+.timeline li.muted .tl-date{color:var(--ink-3)}
+.comp-table-wrap{overflow-x:auto;margin:1.5rem 0;border:1px solid var(--rule);border-radius:4px}
+.comp-table{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.78rem}
+.comp-table thead{background:var(--paper-warm)}
+.comp-table th{padding:.6rem .8rem;text-align:left;font-weight:600;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);border-bottom:2px solid var(--rule)}
+.comp-table td{padding:.55rem .8rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.comp-table tr:last-child td{border-bottom:none}
+.comp-table .highlight-row{background:#fef5f0}
+.comp-table .mono{font-family:var(--mono);font-size:.74rem}
+.callout{border-left:3px solid var(--caution-border);background:var(--caution-bg);padding:1rem 1.2rem;margin:1.6rem 0;border-radius:0 4px 4px 0}
+.callout__label{font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#a08620;margin-bottom:.4rem}
+.callout p{font-size:.9rem;line-height:1.6;margin-bottom:.5rem}.callout p:last-child{margin-bottom:0}
+.exhibits-list{list-style:none;margin:1.2rem 0;padding:0}
+.exhibits-list li{font-family:var(--sans);font-size:.85rem;padding:.6rem .9rem;border:1px solid var(--rule);border-radius:4px;margin-bottom:.5rem;background:#fff;line-height:1.5}
+.exhibits-list a{color:var(--accent);font-weight:600;text-decoration:none;border-bottom:1px solid transparent}
+.exhibits-list a:hover{border-bottom-color:var(--accent)}
+.exhibits-list .ex-tag{font-family:var(--mono);font-size:.7rem;color:var(--ink-3);margin-right:.4rem}
+.footnotes-section{border-top:1px solid var(--rule-heavy);margin-top:3rem;padding-top:1.5rem}
+.footnotes-section h2{font-family:var(--sans);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin-bottom:1rem}
+.footnotes{list-style:none;counter-reset:fn}
+.footnotes li{counter-increment:fn;font-size:.78rem;line-height:1.6;margin-bottom:.6rem;padding-left:1.8rem;position:relative;color:var(--ink-2)}
+.footnotes li::before{content:counter(fn) ".";position:absolute;left:0;font-family:var(--sans);font-weight:700;font-size:.7rem;color:var(--ink-3)}
+.footnotes li a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;word-break:break-word}
+.footnotes li a:hover{border-bottom-color:var(--accent)}
+sup.fn-ref{font-family:var(--sans);font-size:.6rem;font-weight:700;color:var(--accent);cursor:pointer;text-decoration:none;margin-left:1px}
+sup.fn-ref a{color:var(--accent);text-decoration:none}sup.fn-ref:hover{text-decoration:underline}
+.methodology{background:var(--paper-warm);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:1.5rem;margin:2rem 0;border-radius:2px}
+.methodology h3{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-bottom:.6rem}
+.methodology p{font-size:.82rem;line-height:1.6;color:var(--ink-2);margin-bottom:.5rem}.methodology p:last-child{margin-bottom:0}
+.site-footer{border-top:3px double var(--rule-heavy);padding:1.5rem 0 2.5rem;text-align:center;font-family:var(--sans);font-size:.7rem;color:var(--ink-3);line-height:1.8}
+.site-footer a{color:var(--ink-3)}
+.progress-bar{position:fixed;top:0;left:0;width:0;height:3px;background:var(--accent);z-index:1000;transition:width .1s linear}
+@media print{.progress-bar,.topbar{display:none}body{font-size:11pt}.hero__headline{font-size:24pt}}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<div class="topbar"><div class="container container--full"><span>Independent Neighborhood Investigation</span><span>Austin, Texas &middot; District 10</span></div></div>
+<header class="masthead"><div class="container"><h1 class="masthead__title">Public Interest Report</h1><p class="masthead__sub">A Bull Creek Neighborhood Investigation</p></div></header>
+<div class="last-updated"><div class="container">Last updated <time datetime="2026-07-11">July 11, 2026</time> &middot; Active matter — this report will be updated as new records are obtained</div></div>
+
+<section class="hero"><div class="container container--wide">
+<p class="hero__kicker">A Vacant House &amp; a Decade of Code Cases</p>
+<h2 class="hero__headline">Nine Years on Creekbluff</h2>
+<p class="hero__deck">A house gutted to the studs and left unoccupied since 2016 has drawn code complaints for nearly a decade. The public record shows enforcement stalling and closing again and again — while the deed kept moving among the same hands, and finally into a company owned by the property's two prior owners.</p>
+<div class="hero__byline">By <strong>Mark Garcia</strong>, President, Bull Creek Home Owners Association<br>Grounded in City of Austin code records, Notices of Violation, and Texas public filings<br>Published July 11, 2026</div>
+</div></section>
+
+<article><div class="container">
+
+<p class="lede">At 7609 Creekbluff Dr, on the edge of the Bull Creek greenbelt in Austin's District 10, sits a single-family house that no one has lived in for the better part of a decade. Its interior was taken down to the studs. Its walls have stood open, its wiring exposed, its yard used at times to store pallets of construction stone and a shipping container. Neighbors have watched it since at least 2017. The City of Austin has opened code case after code case. And yet, nine years on, the house is still gutted, still empty, and still — by the community's account — a hazard on the creek.</p>
+
+<p>This report assembles what the public record actually shows: the 311 service requests, the code case histories, the Notices of Violation, an administrative citation, an "express permit," the chain of title, and the Texas Secretary of State filing for the company that now owns the house. It is written by the president of the neighborhood's homeowners association, who has been the lead correspondent with the City on this property since 2019. Where the record establishes a fact, it is cited to the document. Where the record raises a question it does not answer, that question is framed as a question — not an accusation.</p>
+
+<p>Two findings sit at the center of the story. First, the City's own enforcement history is one of repeated near-misses: violations found, notices sent, deadlines set — and then cases that stall for years awaiting an administrative hearing that never gets scheduled, or close on "voluntary compliance" that the neighborhood disputes. Second, and newly documented, the property's ownership has shuffled among a small, connected set of people; in July 2025 the two individuals who owned the house across the prior decade &mdash; <strong>Stephen W. Johnson</strong> and <strong>Michael "Mike" Bueker</strong> &mdash; formed a single limited liability company together and moved the deed into it.<sup class="fn-ref"><a href="#fn1">1</a></sup></p>
+
+<hr class="section-rule">
+<h2 class="section-head">I. The Property, and the Pattern</h2>
+
+<p>7609 Creekbluff Dr is legally described as Lot&nbsp;18, Block&nbsp;C, Lakewood Park Section&nbsp;4, and carries Travis Central Appraisal District parcel number 0147090104. It is zoned SF‑2 — standard single-family residential.<sup class="fn-ref"><a href="#fn2">2</a></sup> That zoning matters, because for years the neighborhood watched the lot used as something else: a place to park a contractor's materials.</p>
+
+<p>The house has been the subject of City of Austin code complaints continuously since 2017, under a series of case numbers that trace the same underlying condition — a residence gutted by unpermitted work and then abandoned in that state. The through-line across every one of those cases is not just the address. It is the cast of people attached to it, and the way the title has moved among them each time enforcement drew close.</p>
+
+<div class="evidence-box">
+<p class="evidence-box__label evidence-box__label--confirmed">Confirmed — Chain of title &amp; Texas SOS filing</p>
+<p>The deed to 7609 Creekbluff Dr passed from <strong>Gilyan &amp; Johnson Investments&nbsp;LLC</strong> (2016) to <strong>Stephen W. &amp; Angela D. Johnson</strong> (2018) to <strong>Michael Jeffrey Bueker</strong> (2022) and, on <strong>July&nbsp;30, 2025</strong>, to <strong>7609 Creekbluff&nbsp;LLC</strong> (instrument 2025084464). That LLC (Texas SOS filing #806107975) was formed just <strong>28 days earlier</strong>, on July&nbsp;2, 2025, and lists <strong>Steve W. Johnson</strong> and <strong>Mike Bueker</strong> as its two Managing Members — at the same mailing address.<sup class="fn-ref"><a href="#fn1">1</a></sup></p>
+</div>
+
+<p>In plain terms: the man who owned the house from 2018 to 2022 (Johnson) and the man who bought it from him in 2022 (Bueker) are, as of 2025, business partners in the company that now holds the title. The property's ownership changed on paper four times in nine years. The people behind it did not.</p>
+
+<div class="pull-quote"><p>The address stayed the same. The names on the deed changed. The house never did.</p></div>
+
+<hr class="section-rule">
+<h2 class="section-head">II. 2017–2018 — Gutted, No Permits, a First Citation</h2>
+
+<p>The oldest complaints in the file date to the spring and fall of 2017. On October&nbsp;3, 2017, a complaint reached the Austin Code Department describing a home that had "been under construction" for the past two years with "no building permit posted." Inspector Ronald Union visited on October&nbsp;16, 2017 and documented what he found from the public right of way.<sup class="fn-ref"><a href="#fn3">3</a></sup></p>
+
+<div class="evidence-box">
+<p class="evidence-box__label evidence-box__label--confirmed">Confirmed — Case history CC‑2017‑125062, inspector's note (10/16/2017)</p>
+<p>"I observed a vacant structure with extensive construction work already performed. I observed all the interior walls and ceiling area had been opened up (all the sheet rock had been removed), also there were exposed electrical wires throughout the structure&hellip; I did not observe any active construction permits for this location." The inspector spoke with owner <strong>Steve Johnson</strong> (512‑845‑5026), who "admitted to removing the sheetrock" and said he was "in the permit process."<sup class="fn-ref"><a href="#fn3">3</a></sup></p>
+</div>
+
+<p>What followed set the template for everything after. A contractor's sign — "Upper Construction, 512‑730‑0777" — stood in the front yard. Inspectors posted Notices of Violation in February&nbsp;2018. And over and over, when reached by phone, the owner said the plans were nearly ready:</p>
+
+<ul class="timeline">
+<li><span class="tl-date">Feb 17, 2018</span> Owner "said he was working on the plan review as we were speaking&hellip; He said he plans to have the plans submitted by this Friday."<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Apr 27, 2018</span> Owner "stated that the new architects are submitting the plan documentation on Monday."<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Oct 24, 2018</span> Owner "stated that he has obtained his engineer drawings and would be starting his permit process tomorrow."<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+</ul>
+
+<p>None of those submissions materialized. By the City's own record, the plan review for the property had expired and no active permits existed. On <strong>July&nbsp;5, 2018</strong>, the City posted <strong>Administrative Citation 002474</strong> for work without a permit, and the case was flagged for an administrative hearing.<sup class="fn-ref"><a href="#fn4">4</a></sup> Then it stalled. Month after month through 2019, the inspector's follow-ups read the same way: "No change has occurred at this location and an administrative hearing date is in the process of being assigned."<sup class="fn-ref"><a href="#fn3">3</a></sup></p>
+
+<div class="evidence-box evidence-box--caution">
+<p class="evidence-box__label evidence-box__label--caution">Open question</p>
+<p>An administrative citation was posted in July&nbsp;2018 and the case was repeatedly described as "awaiting an administrative hearing date" through late 2019. The records in hand do not show that a contested administrative hearing on the 2017–2018 violations was ever actually held before the case was reworked and ultimately closed. Whether — and when — a hearing occurred is a question for the City.</p>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">III. 2019 — The Neighborhood Escalates</h2>
+
+<p>By late 2019 the condition of the property had become a standing item for the Bull Creek HOA. What had tipped neighbors over the edge, as the association's November&nbsp;2019 correspondence put it, was the appearance of "8–10 pallets of stone rock&hellip; in the middle of the yard" that "remained there for the last 6 months," alongside a 20‑by‑40 storage container — the lot being used, in effect, as a contractor's yard in a residential zone.<sup class="fn-ref"><a href="#fn5">5</a></sup></p>
+
+<p>On November&nbsp;2, 2019, the HOA filed three separate code service requests and wrote to the District&nbsp;10 council office, then held by Council Member Alison Alter, laying out the neighborhood's concerns: a gutted, vacant house directly on the greenbelt as a fire risk; an attractive nuisance to children; and a magnet for squatters.<sup class="fn-ref"><a href="#fn5">5</a></sup></p>
+
+<div class="evidence-box">
+<p class="evidence-box__label evidence-box__label--confirmed">Confirmed — 311 service requests &amp; District 10 response, Nov 2019</p>
+<p>The HOA filed service requests <span class="mono">19‑00422038</span>, <span class="mono">19‑00422049</span>, and <span class="mono">19‑00422056</span> (contractor's-yard use, unoccupied structure, and the storage container). District&nbsp;10 constituent liaison Mina Shekarchi confirmed the office would open a <strong>Citizen Assistance Form (CAF)</strong>, which "escalates your concerns to the relevant members of City staff and requires they respond to you within 10 days."<sup class="fn-ref"><a href="#fn5">5</a></sup></p>
+</div>
+
+<p>The escalation produced movement. A newly assigned investigator, Khalid Marshall, wrote to the HOA on November&nbsp;26, 2019 that he had "recently inherited this case" and could see "that this case may have been mishandled in the past."<sup class="fn-ref"><a href="#fn6">6</a></sup> On <strong>November&nbsp;6, 2019</strong> the City issued a Notice of Violation citing three items: graffiti on the storage container (§302.9), residential construction performed without permits with sheetrock removed and wiring exposed (§25‑12‑241), and the storage of construction stone on a residential lot (§10‑5‑21).<sup class="fn-ref"><a href="#fn7">7</a></sup></p>
+
+<hr class="section-rule">
+<h2 class="section-head">IV. 2019–2020 — The "Express Permit," and How the Case Closed</h2>
+
+<p>What happened next is the first instance of a pattern the neighborhood would come to distrust: a case that looked like it was heading to legal enforcement instead resolved through a narrow permit and quiet closure.</p>
+
+<p>In December&nbsp;2019, an <strong>express permit</strong> appeared on the property's record. Per the City's case history, plan review PR&nbsp;2019‑234798 was created on December&nbsp;11, 2019 for "Express: remove sheetrock and insulation for exploratory purposes," followed by building permit BP&nbsp;2019‑237817.<sup class="fn-ref"><a href="#fn3">3</a></sup> The HOA questioned how an express permit — a fast-track path meant for limited, low-risk work — could apply to a house where, in the association's recollection, electrical, floor, wall, and plumbing work had already been done.<sup class="fn-ref"><a href="#fn8">8</a></sup> Through early 2020, inspectors chased the removal of the storage container and trailer, and the case moved toward closure.</p>
+
+<div class="evidence-box evidence-box--unconfirmed">
+<p class="evidence-box__label evidence-box__label--unconfirmed">Unresolved — the express-permit closure</p>
+<p>The neighborhood's contention is that a house gutted by extensive interior work was allowed to resolve its "work without permit" violation through an <em>exploratory</em> express permit, rather than the full permitting the prior demolition would ordinarily require. Whether the express permit properly covered the work already performed is a question the City's permitting record should be able to answer.</p>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">V. 2022–2023 — A New Name on the Deed, the Same House</h2>
+
+<p>On October&nbsp;14, 2022, the property changed hands again: Stephen and Angela Johnson deeded it to <strong>Michael Jeffrey Bueker</strong>.<sup class="fn-ref"><a href="#fn1">1</a></sup> The HOA noted the sale in the spring of 2023 and understood the buyer to be a real-estate developer.<sup class="fn-ref"><a href="#fn9">9</a></sup> Through the association's architectural committee, there were intermittent assurances that cleanup and construction were about to begin — the same language the neighborhood had heard for years.<sup class="fn-ref"><a href="#fn9">9</a></sup> The house stayed as it was.</p>
+
+<p>In August&nbsp;2023, the HOA filed a fresh, formal complaint — this time framed explicitly under the International Property Maintenance Code that Austin has adopted, asking the City to evaluate the structure as unsafe and unfit for human occupancy, an attractive nuisance, and a hazard on the greenbelt.<sup class="fn-ref"><a href="#fn10">10</a></sup> The complaint generated a code case that, months later, was closed as <strong>"Voluntary Compliance."</strong></p>
+
+<div class="evidence-box evidence-box--unconfirmed">
+<p class="evidence-box__label evidence-box__label--unconfirmed">The neighborhood's central grievance</p>
+<p>According to the HOA, the 2023 code violation was closed on the basis that permits had been "verified as filed" — yet a search of the City's public permit records showed <strong>zero</strong> permits on file for the property. Closing an enforcement case on a remediation that the public record does not appear to support is the specific failure the association raised, in writing, to the City. The underlying closure notes are the subject of a public-information request.</p>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">VI. 2024 — A Formal Escalation to the Council</h2>
+
+<p>On January&nbsp;14, 2024, the HOA president wrote directly to Council Member Alison Alter and her staff, describing a problem "we have had in our neighborhood for over 5 years," concerning a property "not a primary residence for the owner" that had "been gutted and not occupied for the last 7 years."<sup class="fn-ref"><a href="#fn11">11</a></sup> The letter set out two challenges in the plainest terms the association could: first, the closing of a code case "with false remediation information"; second, the City's failure to inspect and assess the full set of unsafe-structure violations the neighborhood had cited.<sup class="fn-ref"><a href="#fn11">11</a></sup></p>
+
+<p>District&nbsp;10 relayed the letter to Development Services, which sent an inspector back out. The City's February&nbsp;2024 response reported the home "well maintained from the outside," with an enclosed trailer, "some old construction material behind the trailer hidden from public view," two deteriorating wood columns, a small section of broken fascia, and a construction sign near the garage — and said a new notice would be sent "for the deficiencies and working outside the scope of the permit."<sup class="fn-ref"><a href="#fn12">12</a></sup></p>
+
+<hr class="section-rule">
+<h2 class="section-head">VII. 2025 — The Ownership Shuffle</h2>
+
+<p>This is the development that reframes the entire history. In the summer of 2025, the two men who had owned 7609 Creekbluff across the prior decade formalized a partnership around it.</p>
+
+<ul class="timeline">
+<li><span class="tl-date">July 2, 2025</span> <strong>7609 Creekbluff&nbsp;LLC</strong> is formed with the Texas Secretary of State (filing #806107975). Its two Managing Members are <strong>Steve W. Johnson</strong> and <strong>Mike Bueker</strong>, both listed at 3100 Kramer Ln Apt 534, Austin, TX 78758.<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+<li><span class="tl-date">July 30, 2025</span> Michael Bueker deeds 7609 Creekbluff Dr to <strong>7609 Creekbluff&nbsp;LLC</strong> (warranty deed, instrument 2025084464) — 28 days after the company that receives it was created.<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+</ul>
+
+<p>The Secretary of State record is unambiguous on the point that ties the decade together: the property's 2018–2022 owner of record and its 2022–2025 owner of record are the <em>same two people</em> who now jointly control the LLC holding title. The house's ownership has, in substance, never left them.<sup class="fn-ref"><a href="#fn1">1</a></sup></p>
+
+<div class="evidence-box evidence-box--caution">
+<p class="evidence-box__label evidence-box__label--caution">What the record shows — and what it does not</p>
+<p><strong>Documented:</strong> the deed chain and the SOS filing showing Johnson and Bueker as co-managers of the entity that now owns the property, formed weeks before the transfer.<sup class="fn-ref"><a href="#fn1">1</a></sup> <strong>Not established by these documents:</strong> the owners' <em>intent</em> in restructuring ownership. The HOA's concern — that transferring a property among related owners and entities can interrupt or reset the momentum of a code case headed toward an administrative hearing — is a pattern the timeline supports, but intent is a matter for the City and, if it comes to it, a tribunal to weigh.</p>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">VIII. 2026 — A New Council, a New Notice</h2>
+
+<p>District&nbsp;10 changed hands, and the neighborhood tried again. In late May&nbsp;2026, Council Member Marc Duchen attended the Bull Creek HOA's annual meeting and Memorial Day barbecue. Afterward, the council member and his communications director, Anne‑Charlotte Patterson, walked the Creekbluff property and photographed it. On June&nbsp;2, 2026, Patterson wrote that the office's land-use policy strategist would be reaching out about "the vacant home on Creekbluff," and that Council Member Duchen "will stay engaged with this as well."<sup class="fn-ref"><a href="#fn13">13</a></sup></p>
+
+<p>The same day, the District&nbsp;10 office relayed the Code Compliance office's own update. It made a distinction the neighborhood has long run up against — and then confirmed that a fresh notice had gone out:</p>
+
+<div class="evidence-box">
+<p class="evidence-box__label evidence-box__label--confirmed">Confirmed — District 10 office, relaying Code Compliance (June 2, 2026)</p>
+<p>"The fact that the property is unoccupied long-term is not a code violation in of itself&hellip; However, Code Compliance did conduct an inspection&hellip; A Notice of Violations has been sent to the property owner, and we will continue to observe&hellip; If we do not have voluntary compliance within the allotted compliance timeframe, the case will be transitioned to legal escalation."<sup class="fn-ref"><a href="#fn14">14</a></sup></p>
+</div>
+
+<p>That notice is <strong>Notice of Violation CV‑2026‑067670</strong>, dated June&nbsp;2, 2026, issued by Austin Code Inspector Erica Thompson and addressed to <strong>7609 Creekbluff&nbsp;LLC</strong>, PO Box 684196, Austin. It cites structure-maintenance violations — front porch posts missing protective treatment and footings (§304.2), and missing siding and brick facade on the left side and front-left corner of the house (§304.6) — plus grass over 12 inches (§10‑5‑21), the same abatement provision from 2019.<sup class="fn-ref"><a href="#fn15">15</a></sup></p>
+
+<p>The 2026 notice also contains a clause that speaks directly to the ownership history. It states that after receipt of the notice, and until compliance is attained, the City Code <strong>prohibits the sale, lease, or transfer of the property</strong> unless the owner provides any buyer or transferee a copy of the notice and gives the City the transferee's name and address.<sup class="fn-ref"><a href="#fn15">15</a></sup> After years in which the deed moved each time enforcement drew near, the current notice attaches a transfer restriction to the case.</p>
+
+<hr class="section-rule">
+<h2 class="section-head">IX. Where Things Stand</h2>
+
+<p>As of July&nbsp;2026, the house at 7609 Creekbluff Dr remains gutted and unoccupied. An open Notice of Violation (CV‑2026‑067670) is in its compliance window, with the District&nbsp;10 office stating that failure to comply will move the case to "legal escalation." Council Member Duchen's office has said it will stay engaged. The neighborhood has been here before — an open case, a promise of follow-through — several times over nine years.</p>
+
+<h3 class="sub-head">Established by the record</h3>
+<ul class="timeline">
+<li class="muted"><span class="tl-date">Since 2017</span> The house has been gutted to the studs, unpermitted, and unoccupied, with continuous code complaints.<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li class="muted"><span class="tl-date">2018</span> An administrative citation (002474) was posted; the case then sat "awaiting an administrative hearing" through 2019.<sup class="fn-ref"><a href="#fn4">4</a></sup></li>
+<li class="muted"><span class="tl-date">2025</span> Title moved into an LLC co-managed by the property's two prior owners of record, formed 28 days before the transfer.<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+<li class="muted"><span class="tl-date">2026</span> A new Notice of Violation is open against that LLC, carrying a sale/transfer restriction.<sup class="fn-ref"><a href="#fn15">15</a></sup></li>
+</ul>
+
+<h3 class="sub-head">Open questions for the City</h3>
+<ul class="timeline">
+<li class="muted"><span class="tl-date">Enforcement</span> Was a contested administrative hearing on the 2017–2018 violations ever held, and if not, why did the citation lapse?</li>
+<li class="muted"><span class="tl-date">Closure integrity</span> On what basis was the 2023 code case closed as "voluntary compliance," given that public permit records showed no permits on file?</li>
+<li class="muted"><span class="tl-date">Unsafe structure</span> Has any inspection formally evaluated the structure against the unsafe-/vacant-structure and attractive-nuisance provisions the HOA cited (IPMC §§111, 202.2, 305.1.1), rather than only exterior-maintenance items?</li>
+</ul>
+
+<div class="callout">
+<p class="callout__label">What the neighborhood is asking</p>
+<p>The Bull Creek HOA is asking the City to treat 7609 Creekbluff not as a dormant construction project but as what the record describes: a long-abandoned, gutted structure on the greenbelt. Concretely, that means a full unsafe-structure assessment, follow-through on the open 2026 notice to a genuine administrative hearing if compliance is not met, and a review of how prior cases on this address were closed.</p>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">Timeline</h2>
+<ul class="timeline">
+<li><span class="tl-date">May–Jun 2017</span> Earliest complaints logged (garbage/dumpster, unsafe/abandoned structure); owner of record: Stephen W. &amp; Angela D. Johnson.<sup class="fn-ref"><a href="#fn16">16</a></sup></li>
+<li><span class="tl-date">Oct 16, 2017</span> Inspector documents interior gutted to studs, exposed wiring, no active permits (CC‑2017‑125062).<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Feb 8, 2018</span> Notices of Violation posted at the property; "Upper Construction" sign in the yard.<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Jul 5, 2018</span> Administrative Citation 002474 posted for work without permit.<sup class="fn-ref"><a href="#fn4">4</a></sup></li>
+<li><span class="tl-date">Oct 5, 2018</span> Property deeded from Gilyan &amp; Johnson Investments LLC to the Johnsons (warranty + correction deeds).<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+<li><span class="tl-date">2019 (all year)</span> Repeated follow-ups: "no change&hellip; administrative hearing date&hellip; being assigned."<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Nov 2, 2019</span> HOA files 311 SRs 19‑00422038/049/056 and writes to CM Alter's office; CAF opened.<sup class="fn-ref"><a href="#fn5">5</a></sup></li>
+<li><span class="tl-date">Nov 6, 2019</span> Notice of Violation issued: graffiti, work without permit, construction-stone storage.<sup class="fn-ref"><a href="#fn7">7</a></sup></li>
+<li><span class="tl-date">Dec 11, 2019</span> "Express" plan review created (remove sheetrock/insulation, exploratory).<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Jan–Feb 2020</span> Inspectors chase removal of storage container/trailer; case moves to closure.<sup class="fn-ref"><a href="#fn3">3</a></sup></li>
+<li><span class="tl-date">Oct 14, 2022</span> Property deeded from the Johnsons to Michael Jeffrey Bueker.<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+<li><span class="tl-date">Aug 30, 2023</span> HOA files a formal IPMC unsafe-structure complaint.<sup class="fn-ref"><a href="#fn10">10</a></sup></li>
+<li><span class="tl-date">Late 2023</span> Resulting code case closed "Voluntary Compliance"; HOA disputes basis (no permits on file).<sup class="fn-ref"><a href="#fn11">11</a></sup></li>
+<li><span class="tl-date">Jan 14, 2024</span> HOA escalates in writing to CM Alter (false remediation; inadequate inspection).<sup class="fn-ref"><a href="#fn11">11</a></sup></li>
+<li><span class="tl-date">Jan 30, 2024</span> City re-inspects; new notice promised for deficiencies and work outside permit scope.<sup class="fn-ref"><a href="#fn12">12</a></sup></li>
+<li><span class="tl-date">Jul 2, 2025</span> 7609 Creekbluff LLC formed; Managing Members Steve W. Johnson and Mike Bueker.<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+<li><span class="tl-date">Jul 30, 2025</span> Property deeded into 7609 Creekbluff LLC (instrument 2025084464).<sup class="fn-ref"><a href="#fn1">1</a></sup></li>
+<li><span class="tl-date">May 24–25, 2026</span> CM Duchen attends BCHOA annual meeting/BBQ; office walks &amp; photographs the property.<sup class="fn-ref"><a href="#fn13">13</a></sup></li>
+<li><span class="tl-date">Jun 2, 2026</span> Notice of Violation CV‑2026‑067670 issued to 7609 Creekbluff LLC.<sup class="fn-ref"><a href="#fn15">15</a></sup></li>
+</ul>
+
+<hr class="section-rule">
+<h2 class="section-head">Cast of Record</h2>
+<div class="comp-table-wrap">
+<table class="comp-table">
+<thead><tr><th>Name / Entity</th><th>Role in the record</th></tr></thead>
+<tbody>
+<tr><td><strong>Stephen W. ("Steve") Johnson</strong></td><td>Owner of record 2018–2022; the person inspectors repeatedly reached by phone (512‑845‑5026); associated with "Upper Construction." Managing Member of 7609 Creekbluff LLC (2025).<sup class="fn-ref"><a href="#fn1">1</a></sup></td></tr>
+<tr class="highlight-row"><td><strong>Michael Jeffrey ("Mike") Bueker</strong></td><td>Buyer/owner of record 2022–2025; grantor of the 2025 deed into the LLC. Managing Member of 7609 Creekbluff LLC (2025).<sup class="fn-ref"><a href="#fn1">1</a></sup></td></tr>
+<tr><td><strong>7609 Creekbluff LLC</strong></td><td>Current title holder (from July 30, 2025). Texas SOS #806107975, formed July 2, 2025; co-managed by Johnson and Bueker.<sup class="fn-ref"><a href="#fn1">1</a></sup></td></tr>
+<tr><td>Gilyan &amp; Johnson Investments LLC</td><td>Owner of record before 2018; grantor of the 2018 deed to the Johnsons.<sup class="fn-ref"><a href="#fn1">1</a></sup></td></tr>
+<tr><td>Bull Creek HOA</td><td>Neighborhood association; complainant and correspondent with the City since 2019.</td></tr>
+<tr><td>City of Austin — Code / Development Services</td><td>Inspectors of record include Ronald Union, Brian Eberwine, Marco Ramos, Khalid Marshall, Belinda Thompson (2017–2020) and Erica Thompson (2026).<sup class="fn-ref"><a href="#fn3">3</a></sup></td></tr>
+<tr><td>District 10 Council Office</td><td>CM Alison Alter (2019–2024) and CM Marc Duchen (2026), with staff who relayed Code Compliance updates.<sup class="fn-ref"><a href="#fn14">14</a></sup></td></tr>
+</tbody>
+</table>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">Primary Sources</h2>
+<div class="comp-table-wrap">
+<table class="comp-table">
+<thead><tr><th>Source</th><th>What it establishes</th></tr></thead>
+<tbody>
+<tr><td>Texas SOS entity record #806107975</td><td>7609 Creekbluff LLC; Johnson &amp; Bueker as Managing Members; formation July 2, 2025.</td></tr>
+<tr><td>Chain of title (Travis County Clerk)</td><td>Five recorded deeds, 2016–2025, ending in the LLC.</td></tr>
+<tr><td>Code case history CC‑2017‑125062</td><td>Gutted interior, no permits, "plans by Friday" promises, admin-citation and hearing status.</td></tr>
+<tr><td>Notices of Violation (2019, 2020, 2026)</td><td>Specific cited code sections and compliance deadlines.</td></tr>
+<tr><td>Administrative Citation 002474</td><td>Formal citation for work without permit (July 2018).</td></tr>
+<tr><td>311 service requests &amp; District 10 correspondence</td><td>The neighborhood's complaints and the City's official responses.</td></tr>
+</tbody>
+</table>
+</div>
+
+<hr class="section-rule">
+<h2 class="section-head">Exhibits</h2>
+<p>The following public records are published with this report. Correspondence with private neighbors is summarized in the narrative rather than reproduced, to keep personal contact information out of the public record.</p>
+<ul class="exhibits-list">
+<li><span class="ex-tag">A</span> <a href="exhibits/nov-cv-2026-067670.pdf">Notice of Violation CV‑2026‑067670</a> — June 2, 2026, addressed to 7609 Creekbluff LLC.</li>
+<li><span class="ex-tag">B</span> <a href="exhibits/7609-creekbluff-llc-sos.png">Texas SOS entity record #806107975</a> — 7609 Creekbluff LLC; Johnson &amp; Bueker, Managing Members.</li>
+<li><span class="ex-tag">C</span> <a href="exhibits/deed-chain.md">Chain of title</a> — five recorded deeds, 2016–2025, with instrument numbers &amp; verification links.</li>
+<li><span class="ex-tag">D</span> <a href="exhibits/case-history-2017-2020.pdf">Code case history (2017–2020)</a> — full inspector chronology (Property 760552).</li>
+<li><span class="ex-tag">E</span> <a href="exhibits/case-history-2017-2019.pdf">Code case history (2017–2019)</a> — summary of complaint CC‑2017‑125062.</li>
+<li><span class="ex-tag">F</span> <a href="exhibits/admin-citation-002474.pdf">Administrative Citation 002474</a> — work without permit, July 2018.</li>
+<li><span class="ex-tag">G</span> <a href="exhibits/nov-2019.pdf">Notice of Violation (2019)</a> and <a href="exhibits/nov-2019-11.pdf">signed NOV packet (Nov 2019)</a>.</li>
+<li><span class="ex-tag">H</span> <a href="exhibits/express-permit-2019.pdf">Express permit record (2019)</a>.</li>
+<li><span class="ex-tag">I</span> <a href="exhibits/code-photos.pdf">Code inspection photos</a> — City-produced photographs of the property.</li>
+</ul>
+
+<div class="methodology">
+<h3>Methodology &amp; Sourcing</h3>
+<p>This report is built from primary records: City of Austin code case histories and Notices of Violation obtained through public-information requests; 311 service-request confirmations; recorded deeds searchable through the Travis County Clerk; the Travis Central Appraisal District parcel record; and the Texas Secretary of State business-entity filing for 7609 Creekbluff LLC. Direct quotations are transcribed from those documents.</p>
+<p>Correspondence between the HOA, neighbors, and City officials is quoted where it establishes an official action or response; private individuals' personal contact information has been omitted. Statements of the neighborhood's belief or contention are labeled as such and separated from documented facts. Where the record raises a question it does not resolve, the report frames it as an open question rather than a conclusion.</p>
+</div>
+
+<div class="footnotes-section">
+<h2>Notes &amp; Sources</h2>
+<ol class="footnotes">
+<li id="fn1">Chain of title (Travis County Clerk recorded deeds) and Texas Secretary of State entity record, filing #806107975 (7609 Creekbluff LLC, formed July 2, 2025; Managing Members Steve W. Johnson and Mike Bueker). See Exhibits B and C.</li>
+<li id="fn2">Notice of Violation CV‑2026‑067670 (legal description Lot 18 Blk C Lakewood Park Sec 4; zoned SF‑2; parcel 0147090104). See Exhibit A.</li>
+<li id="fn3">City of Austin Code Department, Case History Report, Property 760552 / Complaint CC‑2017‑125062 (inspector case log, 2017–2020). See Exhibits D and E.</li>
+<li id="fn4">Case history CC‑2017‑125062 (Administrative Citation 002474 posted July 5, 2018); Administrative Citation, Exhibit F.</li>
+<li id="fn5">Bull Creek HOA correspondence to District 10 / CM Alison Alter, "Vacant house in neighborhood" (Nov 2, 2019), and District 10 (Mina Shekarchi) reply (Nov 7, 2019); 311 service-request closures 19‑00422038/049/056.</li>
+<li id="fn6">City of Austin Code Department, Inv. Khalid Marshall to Bull Creek HOA, re: case CV‑2017‑135212 (Nov 26, 2019).</li>
+<li id="fn7">Notice of Violation issued Nov 6, 2019 (§302.9 graffiti; §25‑12‑241 work without permit; §10‑5‑21 property abatement). See Exhibit G.</li>
+<li id="fn8">Bull Creek HOA internal update, "Code violation update — 7609 Creekbluff" (Mar 8, 2020), noting the express permit and a public-records request. Express-permit record, Exhibit H.</li>
+<li id="fn9">Bull Creek HOA / ARC correspondence noting the Oct 2022 sale to Michael Bueker (May 2023) and prior owner assurances of forthcoming cleanup/construction (2021–2023).</li>
+<li id="fn10">Bull Creek HOA, "Submitted formal complaint to city regarding 7609 property" (Aug 30, 2023), citing IPMC §§111.1.3, 111.2, 202.2, 305.1.1, 404.5.</li>
+<li id="fn11">Bull Creek HOA president to CM Alison Alter et al., "Ongoing challenges with code compliance office regarding 7609 Creekbluff Dr." (Jan 14, 2024).</li>
+<li id="fn12">Office of CM Alison Alter (Carrie Smith) to Bull Creek HOA, relaying Development Services re-inspection of Jan 30, 2024 (Feb 1, 2024).</li>
+<li id="fn13">Office of CM Marc Duchen (Anne‑Charlotte Patterson) to Bull Creek HOA, re: Council Member Duchen at Bull Creek HOA event (Jun 2, 2026).</li>
+<li id="fn14">Office of CM Marc Duchen (Taylor Crownover) to Bull Creek HOA, relaying Code Compliance update on 7609 Creekbluff (Jun 2, 2026).</li>
+<li id="fn15">Notice of Violation CV‑2026‑067670, City of Austin Development Services, Insp. Erica Thompson (June 2, 2026). See Exhibit A.</li>
+<li id="fn16">City of Austin Code Department, Case History Report, Property 760552 / Complaints CC‑2017‑065615 and CC‑2017‑074054 (May–June 2017). See Exhibit D.</li>
+</ol>
+</div>
+
+<div style="border-top:1px solid var(--rule);margin-top:2rem;padding-top:1.2rem">
+<h3 class="sub-head" style="margin-top:0">Legal Notice</h3>
+<p style="font-size:.85rem;color:var(--ink-2);line-height:1.6">This report is published in the public interest. All confirmed statements are drawn from public records — recorded deeds, Texas Secretary of State filings, and City of Austin code-enforcement documents obtained through public-information requests — and are cited above. Statements of the neighborhood's belief or contention are labeled as such. Where the record raises a question it does not answer, the report frames it as a question and does not allege wrongdoing or criminal conduct by any person or entity. Corrections supported by a source are welcomed via the repository's issue tracker.</p>
+</div>
+
+</div></article>
+
+<footer class="site-footer"><div class="container">
+Public Interest Report &middot; A Bull Creek Neighborhood Investigation<br>
+Maintained by Mark Garcia, President, Bull Creek Home Owners Association &middot; Austin, Texas<br>
+Source records &amp; corrections: <a href="https://github.com/wavecentral/7609-Creekbluff-Dr">github.com/wavecentral/7609-Creekbluff-Dr</a>
+</div></footer>
+
+<script>
+(function(){var b=document.getElementById('progressBar');function u(){var h=document.documentElement,st=h.scrollTop||document.body.scrollTop,sh=(h.scrollHeight||document.body.scrollHeight)-h.clientHeight;b.style.width=(sh>0?(st/sh*100):0)+'%';}window.addEventListener('scroll',u,{passive:true});window.addEventListener('resize',u);u();})();
+</script>
+</body>
+</html>

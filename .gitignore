@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# Privacy: the raw source folder contains private neighbors' emails, phone
+# numbers, and home addresses. It must NEVER be published. Only the curated
+# public records copied into exhibits/ are tracked.
+# ---------------------------------------------------------------------------
+City of Austin - Draft Audit Summary to District 10/
+
+# Raw correspondence and spreadsheets (personal contact info)
+*.eml
+*.xlsx
+*.xls
+*.doc
+*.docx
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
