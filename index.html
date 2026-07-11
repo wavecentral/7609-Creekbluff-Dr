@@ -87,6 +87,17 @@ sup.fn-ref a{color:var(--accent);text-decoration:none}sup.fn-ref:hover{text-deco
 .site-footer a{color:var(--ink-3)}
 .progress-bar{position:fixed;top:0;left:0;width:0;height:3px;background:var(--accent);z-index:1000;transition:width .1s linear}
 @media print{.progress-bar,.topbar{display:none}body{font-size:11pt}.hero__headline{font-size:24pt}}
+.fn-backdrop{position:fixed;inset:0;z-index:1150;background:transparent;display:none}
+.fn-backdrop.is-open{display:block}
+.fn-pop{position:fixed;z-index:1200;max-width:340px;background:var(--paper);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:5px;box-shadow:0 12px 34px rgba(0,0,0,.24);padding:.85rem 2.1rem .9rem 1rem;font-family:var(--sans);font-size:.82rem;line-height:1.55;color:var(--ink-2);display:none}
+.fn-pop.is-open{display:block}
+.fn-pop__num{font-weight:700;color:var(--accent);margin-right:.3rem}
+.fn-pop a{color:var(--accent);word-break:break-word;text-decoration:none;border-bottom:1px solid rgba(139,37,0,.35)}
+.fn-pop a:hover{border-bottom-color:var(--accent)}
+.fn-pop__close{position:absolute;top:.25rem;right:.4rem;background:none;border:none;font-size:1.15rem;line-height:1;color:var(--ink-3);cursor:pointer;padding:.15rem .35rem;border-radius:3px}
+.fn-pop__close:hover{color:var(--ink);background:rgba(0,0,0,.05)}
+sup.fn-ref a{cursor:pointer}
+@media print{.fn-pop,.fn-backdrop{display:none!important}}
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -362,6 +373,7 @@ sup.fn-ref a{color:var(--accent);text-decoration:none}sup.fn-ref:hover{text-deco
 <li><span class="ex-tag">I</span> <a href="exhibits/code-photos.pdf">Code inspection photos</a> — City-produced photographs of the property.</li>
 <li><span class="ex-tag">J</span> <a href="exhibits/complaint-index.html">Complaint index (2017–2020)</a> — every complaint on the property and how each closed (14 of 17 "duplicate").</li>
 <li><span class="ex-tag">K</span> <a href="exhibits/code-cases-public-search.csv">Case &amp; permit list</a> — City public-search export (2026‑07‑11), incl. Administrative Hearing case 2018‑124155 CL.</li>
+<li><span class="ex-tag">L</span> <a href="exhibits/bryker-woods-precedent.html">Precedent — 1704 Westover Rd (Bryker Woods)</a> — archived summary of the <em>Austin Current</em> report on the BSC demolition of a comparable long-vacant house.</li>
 </ul>
 
 <div class="methodology">
@@ -410,6 +422,42 @@ Source records &amp; corrections: <a href="https://github.com/wavecentral/7609-C
 
 <script>
 (function(){var b=document.getElementById('progressBar');function u(){var h=document.documentElement,st=h.scrollTop||document.body.scrollTop,sh=(h.scrollHeight||document.body.scrollHeight)-h.clientHeight;b.style.width=(sh>0?(st/sh*100):0)+'%';}window.addEventListener('scroll',u,{passive:true});window.addEventListener('resize',u);u();})();
+</script>
+<script>
+/* Footnote references open their note in a small overlay instead of jumping to the bottom. */
+(function(){
+  var back=document.createElement('div');back.className='fn-backdrop';
+  var pop=document.createElement('div');pop.className='fn-pop';
+  pop.innerHTML='<button class="fn-pop__close" aria-label="Close">×</button><div class="fn-pop__body"></div>';
+  document.body.appendChild(back);document.body.appendChild(pop);
+  var bodyEl=pop.querySelector('.fn-pop__body');
+  function close(){pop.classList.remove('is-open');back.classList.remove('is-open');}
+  function openFor(a){
+    var id=(a.getAttribute('href')||'').replace('#','');
+    var li=document.getElementById(id);
+    if(!li)return;
+    bodyEl.innerHTML='<span class="fn-pop__num">'+id.replace('fn','')+'.</span>'+li.innerHTML;
+    pop.classList.add('is-open');back.classList.add('is-open');
+    var r=a.getBoundingClientRect();
+    pop.style.visibility='hidden';
+    var pw=pop.offsetWidth,ph=pop.offsetHeight,pad=8;
+    var left=Math.min(Math.max(pad,r.left),window.innerWidth-pw-pad);
+    var top=r.bottom+pad;
+    if(top+ph>window.innerHeight-pad){top=Math.max(pad,r.top-ph-pad);}
+    pop.style.left=left+'px';pop.style.top=top+'px';pop.style.visibility='';
+  }
+  document.addEventListener('click',function(e){
+    if(e.target.closest('.fn-pop__close')){close();return;}
+    var a=e.target.closest('sup.fn-ref a');
+    if(a){e.preventDefault();openFor(a);return;}
+    if(e.target.closest('.fn-pop'))return;
+    if(pop.classList.contains('is-open'))close();
+  });
+  back.addEventListener('click',close);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  window.addEventListener('scroll',function(){if(pop.classList.contains('is-open'))close();},{passive:true});
+  window.addEventListener('resize',function(){if(pop.classList.contains('is-open'))close();});
+})();
 </script>
 </body>
 </html>
