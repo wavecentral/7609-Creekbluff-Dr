@@ -5,6 +5,7 @@
 🔗 **Read the report:** [wavecentral.github.io/7609-Creekbluff-Dr](https://wavecentral.github.io/7609-Creekbluff-Dr/)
 ✉️ **Open letter to Council Member Duchen:** [/open-letter.html](https://wavecentral.github.io/7609-Creekbluff-Dr/open-letter.html)
 📄 **Exhibit M — the inspector's file (PIR C330239):** [/pir-c330239.html](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html)
+📌 **Exhibit N — Cleared on Paper (NOV CV‑2026‑067670):** [/cv-2026-067670.html](https://wavecentral.github.io/7609-Creekbluff-Dr/cv-2026-067670.html)
 
 ---
 
@@ -49,6 +50,17 @@ The City's own 266-page code file for the property is published as Exhibit M and
 - **The 2018 administrative citation was dismissed** in October 2019 because *"There is no folder for the citation and it is over a year old at this time."*
 - **No unsafe-structure assessment exists.** Across 43 logged inspections, every code section the City cited is an exterior-maintenance or permit item. The IPMC unsafe-structure, vacant-structure and nuisance provisions the HOA cited in January 2024 are never evaluated in the file.
 
+### The current notice, CV‑2026‑067670 (Exhibit N)
+
+Notice issued June 2, 2026 for three conditions; case closed August 31, 2026 as voluntary compliance with all three marked **Cleared**. Examined item by item in [Cleared on Paper](https://wavecentral.github.io/7609-Creekbluff-Dr/cv-2026-067670.html):
+
+- **Both certified copies of the notice were returned undelivered** — the owner copy endorsed "ATTEMPTED NOT KNOWN, UNABLE TO FORWARD," the registered-agent copy "returned unexecuted." The Secretary of State address for the LLC and its agent appears two pages later in the same City file; the notice was sent to neither.
+- **78 days pass with no logged action** between the notice and the follow-up — through the 7-day weed deadline, the 20-day BSC appeal window and the 30-day repair deadline.
+- **All three items were cleared on one sentence:** *"The repairs made to the exterior of the structure."*
+- **Of the seven photographs the inspector took that day, none shows the elevation cited in item 2** (siding/brick at the left side and garage door). The supervisor had photographed exactly that elevation when she cited it.
+- **Author's photographs of September 4, 2026** — sixteen days after closure, EXIF date/time/GPS intact — show the porch posts and the garage-elevation sheathing and facade in the same condition as cited. Only the mowing (item 3) was done.
+- **An upper wall closed in with DuPont Tyvek HomeWrap alone**, torn loose and hanging free, appears in no City photograph and has never been cited.
+
 ### Open questions for the City
 
 - Was a contested administrative hearing on the 2017–2018 violations ever held?
@@ -75,6 +87,7 @@ All confirmed claims are grounded in public records, published in [`/exhibits`](
 | K | Case & permit list (public search, 2026‑07‑11) — incl. Administrative Hearing case 2018‑124155 CL |
 | L | Precedent — 1704 Westover Rd (Bryker Woods), archived BSC demolition summary |
 | M | **PIR C330239** — DSD response, 266 pp. (Sept 2, 2026) + [stand-alone analysis](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html) |
+| N | **NOV CV‑2026‑067670 case study** — [Cleared on Paper](https://wavecentral.github.io/7609-Creekbluff-Dr/cv-2026-067670.html), incl. author's dated photographs of Sept 4, 2026 |
 
 Deeds are searchable through the [Travis County Clerk](https://countyclerk.traviscountytx.gov/); the parcel record is at [TCAD](https://www.traviscad.org/); the entity filing is at the [Texas SOS](https://www.sos.state.tx.us/corp/sosda/).
 
