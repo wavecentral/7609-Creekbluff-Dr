@@ -4,6 +4,7 @@
 
 🔗 **Read the report:** [wavecentral.github.io/7609-Creekbluff-Dr](https://wavecentral.github.io/7609-Creekbluff-Dr/)
 ✉️ **Open letter to Council Member Duchen:** [/open-letter.html](https://wavecentral.github.io/7609-Creekbluff-Dr/open-letter.html)
+📄 **Exhibit M — the inspector's file (PIR C330239):** [/pir-c330239.html](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html)
 
 ---
 
@@ -35,6 +36,19 @@ It was produced by the president of the Bull Creek Home Owners Association — t
 - **7609 Creekbluff LLC** (Texas SOS filing **#806107975**, formed **July 2, 2025**) lists **Steve W. Johnson** and **Mike Bueker** as its two Managing Members, at the same address. The property was deeded into the LLC **28 days** after it was formed.
 - An open **Notice of Violation CV‑2026‑067670** (June 2, 2026) is addressed to the LLC and carries a clause prohibiting sale/lease/transfer of the property, until compliance, without notifying the City and any transferee.
 
+### From PIR C330239 (City response, September 2, 2026)
+
+The City's own 266-page code file for the property is published as Exhibit M and read in full in a [stand-alone report](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html). It establishes:
+
+- **The interior was never verified.** Closing the case on December 11, 2025, the code supervisor wrote: *"Both structural violations observed on the NOV have been abated and the work inside structure was never verified."* The February 2024 permit violation for the interior remodel was marked **Released**, not cleared.
+- **A stop-work order was posted May 3, 2024** after a DSD manager confirmed new lumber, studs and ceiling joists fell outside the "express" permit, and the contractor admitted to *"jumping the gun."* No citation or hearing referral follows it in the file.
+- **Nine follow-up inspections between June 2024 and February 2025** carry a near-verbatim identical note; the log then goes silent for nine months and twenty-two days.
+- **August 11, 2025: *"There is no actual code violations."*** Nine months later a different officer found three violations on the same exterior, with no recorded intervening change.
+- **The August 2026 closure.** The case was closed on "voluntary compliance" after an inspector wrote *"The repairs made to the exterior of the structure."* The City's photographs from that same day show the cited front porch posts in the same bare open-framing condition as when they were cited.
+- **Both certified copies of the current 2026 Notice of Violation were returned undelivered** — "ATTEMPTED NOT KNOWN" and "returned unexecuted." The Secretary of State address for the LLC and its registered agent appears two pages later in the same City file; the notice was sent to neither.
+- **The 2018 administrative citation was dismissed** in October 2019 because *"There is no folder for the citation and it is over a year old at this time."*
+- **No unsafe-structure assessment exists.** Across 43 logged inspections, every code section the City cited is an exterior-maintenance or permit item. The IPMC unsafe-structure, vacant-structure and nuisance provisions the HOA cited in January 2024 are never evaluated in the file.
+
 ### Open questions for the City
 
 - Was a contested administrative hearing on the 2017–2018 violations ever held?
@@ -59,6 +73,8 @@ All confirmed claims are grounded in public records, published in [`/exhibits`](
 | I | City code inspection photos |
 | J | Complaint index (2017–2020) — 14 of 17 closed as "duplicate" |
 | K | Case & permit list (public search, 2026‑07‑11) — incl. Administrative Hearing case 2018‑124155 CL |
+| L | Precedent — 1704 Westover Rd (Bryker Woods), archived BSC demolition summary |
+| M | **PIR C330239** — DSD response, 266 pp. (Sept 2, 2026) + [stand-alone analysis](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html) |
 
 Deeds are searchable through the [Travis County Clerk](https://countyclerk.traviscountytx.gov/); the parcel record is at [TCAD](https://www.traviscad.org/); the entity filing is at the [Texas SOS](https://www.sos.state.tx.us/corp/sosda/).
 
@@ -84,4 +100,4 @@ This report is published in the public interest under the protections of the Fir
 ---
 
 *Maintained by Mark Garcia, President, Bull Creek Home Owners Association.*
-*Last updated: July 11, 2026.*
+*Last updated: September 4, 2026.*

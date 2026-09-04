@@ -19,9 +19,20 @@ City of Austin - Draft Audit Summary to District 10/
 # Paste-ready plain-text email version of the open letter — working copy, not published.
 open-letter-email.txt
 
+# Paste-ready TPIA records request (2026 CV cases) — working copy, not published.
+pia-request-2026-067670.txt
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
 *~
 .idea/
 .vscode/
+
+# The raw 194MB PIR C330239 response exceeds GitHub's 100MB file limit and is not
+# published. The web copy (exhibits/pir-c330239-dsd-response.pdf, ~31MB, same 266
+# pages at reduced image resolution) is what ships.
+exhibits/PIRC330239_DSD_Response_redacted.pdf
+
+# Bulk photo archives — working material, not published.
+exhibits/Photos-*.zip
