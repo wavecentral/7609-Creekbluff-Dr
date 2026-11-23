@@ -112,16 +112,20 @@ sup.fn-ref a{cursor:pointer}
 .tldr strong{color:var(--ink)}
 .tldr__now{margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--rule);font-size:.93rem;line-height:1.6;color:var(--ink)}
 .tldr__now b{font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:.2rem}
-.latest{border:1px solid var(--rule);border-top:4px solid var(--accent);background:#fff;border-radius:0 0 5px 5px;padding:1.3rem 1.4rem;margin:2rem 0 1rem}
-.latest__tag{font-family:var(--sans);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
-.latest__tag .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block;flex:none}
-.latest__tag .when{color:var(--ink-3);font-weight:600;letter-spacing:.06em}
-.latest h3{font-family:var(--display);font-size:1.5rem;font-weight:800;line-height:1.2;margin-bottom:.5rem;color:var(--ink)}
+.latest-band{background:var(--paper-warm);border-bottom:1px solid var(--rule);padding:1.6rem 0}
+.latest{border:2px solid var(--accent);background:#fff;border-radius:5px;padding:1.5rem 1.6rem 1.4rem;margin:0;box-shadow:0 2px 16px rgba(139,37,0,.09)}
+@media(max-width:600px){.latest{padding:1.15rem 1.1rem}}
+.latest__tag{font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;background:var(--accent);margin:-1.5rem -1.6rem 1rem;padding:.5rem 1.6rem;border-radius:3px 3px 0 0;display:flex;align-items:center;gap:.55rem;flex-wrap:wrap}
+@media(max-width:600px){.latest__tag{margin:-1.15rem -1.1rem .9rem;padding:.45rem 1.1rem}}
+.latest__tag .dot{width:7px;height:7px;border-radius:50%;background:#fff;display:inline-block;flex:none}
+.latest__tag .when{color:rgba(255,255,255,.82);font-weight:600;letter-spacing:.07em}
+.latest h3{font-family:var(--display);font-size:1.85rem;font-weight:900;line-height:1.16;margin-bottom:.65rem;color:var(--ink)}
+@media(max-width:600px){.latest h3{font-size:1.4rem}}
 .latest h3 a{color:inherit;text-decoration:none;border-bottom:2px solid rgba(139,37,0,.25)}
 .latest h3 a:hover{border-bottom-color:var(--accent)}
 .latest p{font-size:.95rem;line-height:1.65;color:var(--ink-2);margin-bottom:.8rem}
-.latest__more{font-family:var(--sans);font-size:.78rem;font-weight:700;color:var(--accent);text-decoration:none}
-.latest__more:hover{text-decoration:underline}
+.latest__more{display:inline-block;margin-top:.35rem;font-family:var(--sans);font-size:.78rem;font-weight:700;color:#fff;background:var(--accent);padding:.5rem 1rem;border-radius:3px;text-decoration:none}
+.latest__more:hover{background:var(--accent-hover)}
 .reports{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem;margin:1.5rem 0 .5rem}
 @media(max-width:620px){.reports{grid-template-columns:1fr}}
 .rcard{border:1px solid var(--rule);background:#fff;border-radius:4px;padding:.95rem 1.05rem;display:flex;flex-direction:column;gap:.35rem}
@@ -172,6 +176,16 @@ sup.fn-ref a{cursor:pointer}
 <header class="masthead"><div class="container"><h1 class="masthead__title">Public Interest Report</h1><p class="masthead__sub">A Bull Creek Neighborhood Investigation</p></div></header>
 <div class="last-updated"><div class="container">Last updated <time datetime="2026-11-23">November 23, 2026</time> &middot; Active matter — this page is updated as the record changes</div></div>
 
+<section class="latest-band"><div class="container container--wide">
+<div class="latest">
+<div class="latest__tag"><span class="dot"></span>Latest update<span class="when">&middot; September 24, 2026</span></div>
+<h3><a href="nine-violations.html">The file reopens — nine violations, and the inside of the house</a></h3>
+<p>Three weeks after the City closed this property's case as voluntary compliance, District 10 Senior Policy Strategist <strong>William Grant</strong> wrote: <em>"I will take responsibility to walk this issue through process. New citations have been issued yesterday and when they are not resolved City Code will escalate to judicial action."</em></p>
+<p>The notice issued that day, <strong>CV&#8209;2026&#8209;126219</strong>, cites nine violations — among them a rodent infestation inside the structure and interior drywall damage, the first time in nine years the City has cited the inside of this house. Every structural remedy now requires a building permit before repairs start. All compliance deadlines expired in October; the case remains active.</p>
+<a class="latest__more" href="nine-violations.html">Read the dispatch &#8594;</a>
+</div>
+</div></section>
+
 <section class="hero"><div class="container container--wide">
 <p class="hero__kicker">7609 Creekbluff Dr &middot; Austin, TX 78750</p>
 <h2 class="hero__headline">Nine Years, One House</h2>
@@ -192,14 +206,6 @@ sup.fn-ref a{cursor:pointer}
 <li>On <strong>September 24, 2026 the City reopened the property</strong> under a new case with <strong>nine violations</strong> — including, for the first time in nine years, the <strong>inside of the house</strong>: a rodent infestation and interior drywall damage. Every repair now requires a permit first, which forecloses another paper closure.</li>
 </ul>
 <div class="tldr__now"><b>Where it stands today</b>All compliance deadlines expired in October 2026 and case CV&#8209;2026&#8209;126219 remains open — the first time a case on this property has stayed open past its deadline instead of closing. District 10 has committed in writing that unresolved citations "will escalate to judicial action." Nothing further has been received from the City.</div>
-</div>
-
-<div class="latest">
-<div class="latest__tag"><span class="dot"></span>Latest update<span class="when">&middot; September 24, 2026</span></div>
-<h3><a href="nine-violations.html">The file reopens — nine violations, and the inside of the house</a></h3>
-<p>Three weeks after the City closed this property's case as voluntary compliance, District 10 Senior Policy Strategist <strong>William Grant</strong> wrote: <em>"I will take responsibility to walk this issue through process. New citations have been issued yesterday and when they are not resolved City Code will escalate to judicial action."</em></p>
-<p>The notice issued that day, <strong>CV&#8209;2026&#8209;126219</strong>, cites nine violations — among them a rodent infestation inside the structure and interior drywall damage, the first time in nine years the City has cited the inside of this house. Every structural remedy now requires a building permit before repairs start. All compliance deadlines expired in October; the case remains active.</p>
-<a class="latest__more" href="nine-violations.html">Read the dispatch &#8594;</a>
 </div>
 
 <div class="stat-row">
