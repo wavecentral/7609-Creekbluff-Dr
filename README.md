@@ -1,11 +1,27 @@
-# Nine Years on Creekbluff
+# 7609 Creekbluff Dr — Timeline & Dispatches
 
-**An independent, neighborhood-driven investigation into a gutted, unoccupied house at 7609 Creekbluff Dr, Austin, TX 78750 — and a decade of Austin code-enforcement cases that never resolved it.**
+**An independent, neighborhood-driven public record of a gutted, unoccupied house at 7609 Creekbluff Dr, Austin, TX 78750 — and the decade of City of Austin code cases that have never resolved it.**
 
-🔗 **Read the report:** [wavecentral.github.io/7609-Creekbluff-Dr](https://wavecentral.github.io/7609-Creekbluff-Dr/)
-✉️ **Open letter to Council Member Duchen:** [/open-letter.html](https://wavecentral.github.io/7609-Creekbluff-Dr/open-letter.html)
-📄 **Exhibit M — the inspector's file (PIR C330239):** [/pir-c330239.html](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html)
-📌 **Exhibit N — Cleared on Paper (NOV CV‑2026‑067670):** [/cv-2026-067670.html](https://wavecentral.github.io/7609-Creekbluff-Dr/cv-2026-067670.html)
+🔗 **Timeline & latest updates:** [wavecentral.github.io/7609-Creekbluff-Dr](https://wavecentral.github.io/7609-Creekbluff-Dr/)
+
+### The reports
+
+| | Report | What it covers |
+|---|---|---|
+| Jul 2026 | [Nine Years on Creekbluff](https://wavecentral.github.io/7609-Creekbluff-Dr/nine-years-on-creekbluff.html) | The full investigation: the history, the chain of title, the LLC, neighbors' accounts |
+| Sep 2026 | [The Inspector's File](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html) | The City's 266-page public-information response, read in full |
+| Sep 2026 | [Cleared on Paper](https://wavecentral.github.io/7609-Creekbluff-Dr/cv-2026-067670.html) | NOV CV‑2026‑067670 item by item, against dated photographs |
+| Nov 2026 | **[Nine Violations](https://wavecentral.github.io/7609-Creekbluff-Dr/nine-violations.html)** | The reopened case CV‑2026‑126219 — the interior cited for the first time |
+
+✉️ [Open letter to Council Member Duchen](https://wavecentral.github.io/7609-Creekbluff-Dr/open-letter.html)
+
+---
+
+## Site structure
+
+- **`index.html`** — the landing page. A reverse-chronological timeline of City and neighborhood action, with the latest update surfaced at the top, links to each investigative report, and the primary-source index.
+- **Investigative reports** live at their own stable URLs (`nine-years-on-creekbluff.html`, `pir-c330239.html`, `cv-2026-067670.html`, `nine-violations.html`).
+- **New developments are published as their own dispatch page**, then linked from a new timeline entry on `index.html`. The timeline is the spine; the articles are the depth.
 
 ---
 
@@ -36,6 +52,22 @@ It was produced by the president of the Bull Creek Home Owners Association — t
 - The chain of title runs **Gilyan & Johnson Investments LLC (2016) → Stephen W. & Angela D. Johnson (2018) → Michael Jeffrey Bueker (2022) → 7609 Creekbluff LLC (July 30, 2025)**.
 - **7609 Creekbluff LLC** (Texas SOS filing **#806107975**, formed **July 2, 2025**) lists **Steve W. Johnson** and **Mike Bueker** as its two Managing Members, at the same address. The property was deeded into the LLC **28 days** after it was formed.
 - An open **Notice of Violation CV‑2026‑067670** (June 2, 2026) is addressed to the LLC and carries a clause prohibiting sale/lease/transfer of the property, until compliance, without notifying the City and any transferee.
+
+### Current status — November 23, 2026
+
+**Case CV‑2026‑126219 is open and past every deadline.** After the August 2026 closure was challenged with photographs, District 10 Senior Policy Strategist William Grant wrote on September 24: *"I will take responsibility to walk this issue through process. New citations have been issued yesterday and when they are not resolved City Code will escalate to judicial action."*
+
+The notice issued that day cites **nine violations** — and for the first time in nine years, the inside of the house:
+
+- **§309.1 Infestation** — *"Eliminate the Rodent Infestation located inside the Single-Family house."* 7 days.
+- **§305.3 Interior surfaces** — interior drywall. 30 days.
+- **§305.4** walking surfaces · **§304.13** window and door frames · **§304.10** porch columns (reclassified from finish to structure) · **§304.6** siding · **§304.7** rodent-damaged fascia and soffit.
+- **§25‑12‑241** residential construction without required permits — reactivate BP 2019‑237817. 14 days.
+- **§10‑5‑21** trash removal, and *"ensure the property is maintained and secured during the development period."* 7 days.
+
+Every structural remedy requires a **building permit before repairs start**, and the notice states that permit inspections must be completed before the violations can close — which forecloses the one-sentence closure that ended the last case. All deadlines expired in October 2026. The case remains active.
+
+One request has not been met: the owner copy went again to **PO Box 684196**, the same address from which the June notice was returned "ATTEMPTED NOT KNOWN, UNABLE TO FORWARD."
 
 ### From PIR C330239 (City response, September 2, 2026)
 
@@ -88,6 +120,7 @@ All confirmed claims are grounded in public records, published in [`/exhibits`](
 | L | Precedent — 1704 Westover Rd (Bryker Woods), archived BSC demolition summary |
 | M | **PIR C330239** — DSD response, 266 pp. (Sept 2, 2026) + [stand-alone analysis](https://wavecentral.github.io/7609-Creekbluff-Dr/pir-c330239.html) |
 | N | **NOV CV‑2026‑067670 case study** — [Cleared on Paper](https://wavecentral.github.io/7609-Creekbluff-Dr/cv-2026-067670.html), incl. author's dated photographs of Sept 4, 2026 |
+| O | **NOV CV‑2026‑126219** (Sept 24, 2026) — the reopened case, nine violations |
 
 Deeds are searchable through the [Travis County Clerk](https://countyclerk.traviscountytx.gov/); the parcel record is at [TCAD](https://www.traviscad.org/); the entity filing is at the [Texas SOS](https://www.sos.state.tx.us/corp/sosda/).
 
@@ -113,4 +146,4 @@ This report is published in the public interest under the protections of the Fir
 ---
 
 *Maintained by Mark Garcia, President, Bull Creek Home Owners Association.*
-*Last updated: September 4, 2026.*
+*Last updated: November 23, 2026.*
