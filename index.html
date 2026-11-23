@@ -119,13 +119,37 @@ sup.fn-ref a{cursor:pointer}
 @media(max-width:600px){.latest__tag{margin:-1.15rem -1.1rem .9rem;padding:.45rem 1.1rem}}
 .latest__tag .dot{width:7px;height:7px;border-radius:50%;background:#fff;display:inline-block;flex:none}
 .latest__tag .when{color:rgba(255,255,255,.82);font-weight:600;letter-spacing:.07em}
-.latest h3{font-family:var(--display);font-size:1.85rem;font-weight:900;line-height:1.16;margin-bottom:.65rem;color:var(--ink)}
+.latest__d{margin:0;padding:.95rem 0;border-bottom:1px solid var(--rule)}
+.latest__d:last-of-type{border-bottom:none;padding-bottom:.2rem}
+.latest__d:first-of-type{padding-top:.1rem}
+.latest__meta{display:block;font-family:var(--sans);font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.25rem}
+.latest__d.is-new .latest__meta{color:var(--accent)}
+.latest__d summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;gap:1rem;justify-content:space-between;border-radius:3px}
+.latest__d summary>div,.latest__d summary{min-width:0}
+.latest__d summary::-webkit-details-marker{display:none}
+.latest__d summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.latest__title{font-family:var(--display);font-size:1.3rem;font-weight:800;line-height:1.22;color:var(--ink);display:block}
+.latest__d.is-new .latest__title{font-size:1.6rem;font-weight:900}
+.latest__d summary>span:not(.latest__toggle){flex:1}
+.latest__d summary:hover .latest__title{color:var(--accent)}
+.latest__toggle{flex:none;margin-top:.15rem;width:1.45rem;height:1.45rem;border:1.5px solid var(--rule);border-radius:50%;position:relative;transition:transform .18s ease,border-color .18s ease}
+.latest__d summary:hover .latest__toggle{border-color:var(--accent)}
+.latest__toggle::before,.latest__toggle::after{content:'';position:absolute;background:var(--accent);left:50%;top:50%;transform:translate(-50%,-50%)}
+.latest__toggle::before{width:.68rem;height:1.5px}
+.latest__toggle::after{width:1.5px;height:.68rem;transition:opacity .18s ease}
+.latest__d[open] .latest__toggle{transform:rotate(180deg)}
+.latest__d[open] .latest__toggle::after{opacity:0}
+.latest__body{margin-top:.85rem;animation:latestIn .22s ease}
+@keyframes latestIn{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+@media(max-width:600px){.latest__title{font-size:1.1rem}.latest__d.is-new .latest__title{font-size:1.3rem}}
 @media(max-width:600px){.latest h3{font-size:1.4rem}}
 .latest h3 a{color:inherit;text-decoration:none;border-bottom:2px solid rgba(139,37,0,.25)}
 .latest h3 a:hover{border-bottom-color:var(--accent)}
 .latest p{font-size:.95rem;line-height:1.65;color:var(--ink-2);margin-bottom:.8rem}
 .latest__more{display:inline-block;margin-top:.35rem;font-family:var(--sans);font-size:.78rem;font-weight:700;color:#fff;background:var(--accent);padding:.5rem 1rem;border-radius:3px;text-decoration:none}
 .latest__more:hover{background:var(--accent-hover)}
+.latest__more--alt{background:transparent;color:var(--accent);border:1px solid var(--accent);margin-left:.4rem}
+.latest__more--alt:hover{background:var(--accent);color:#fff}
 .reports{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem;margin:1.5rem 0 .5rem}
 @media(max-width:620px){.reports{grid-template-columns:1fr}}
 .rcard{border:1px solid var(--rule);background:#fff;border-radius:4px;padding:.95rem 1.05rem;display:flex;flex-direction:column;gap:.35rem}
@@ -178,11 +202,35 @@ sup.fn-ref a{cursor:pointer}
 
 <section class="latest-band"><div class="container container--wide">
 <div class="latest">
-<div class="latest__tag"><span class="dot"></span>Latest update<span class="when">&middot; September 24, 2026</span></div>
-<h3><a href="nine-violations.html">The file reopens — nine violations, and the inside of the house</a></h3>
+<div class="latest__tag"><span class="dot"></span>Latest updates</div>
+
+<details class="latest__d is-new">
+<summary><span class="latest__meta">September 24, 2026 &middot; Dispatch</span><span class="latest__title">The file reopens — nine violations, and the inside of the house</span><span class="latest__toggle" aria-hidden="true"></span></summary>
+<div class="latest__body">
 <p>Three weeks after the City closed this property's case as voluntary compliance, District 10 Senior Policy Strategist <strong>William Grant</strong> wrote: <em>"I will take responsibility to walk this issue through process. New citations have been issued yesterday and when they are not resolved City Code will escalate to judicial action."</em></p>
 <p>The notice issued that day, <strong>CV&#8209;2026&#8209;126219</strong>, cites nine violations — among them a rodent infestation inside the structure and interior drywall damage, the first time in nine years the City has cited the inside of this house. Every structural remedy now requires a building permit before repairs start. All compliance deadlines expired in October; the case remains active.</p>
 <a class="latest__more" href="nine-violations.html">Read the dispatch &#8594;</a>
+</div>
+</details>
+
+<details class="latest__d">
+<summary><span class="latest__meta">September 4, 2026 &middot; Two reports</span><span class="latest__title">The City's own file, and a case cleared on paper</span><span class="latest__toggle" aria-hidden="true"></span></summary>
+<div class="latest__body">
+<p>The City released its 266-page response to a public-information request. Read in full, it documents nine cases, eight cited code sections, 43 logged inspections and 147 photographs — and shows that in nine years no inspector ever assessed the structure against the unsafe- or vacant-building provisions the neighborhood had cited.</p>
+<p>A companion report takes the then-current notice item by item: three conditions cited, both certified copies returned undelivered, all three cleared on a one-sentence note — set against photographs taken on the property sixteen days after the case was closed. Both were sent the same day to Council Member Duchen's office.</p>
+<a class="latest__more" href="pir-c330239.html">The Inspector's File &#8594;</a> <a class="latest__more latest__more--alt" href="cv-2026-067670.html">Cleared on Paper &#8594;</a>
+</div>
+</details>
+
+<details class="latest__d">
+<summary><span class="latest__meta">July 11, 2026 &middot; Investigation</span><span class="latest__title">Nine Years on Creekbluff — the full record published</span><span class="latest__toggle" aria-hidden="true"></span></summary>
+<div class="latest__body">
+<p>The complete investigation went live: a house gutted to the studs in 2017, a decade of code cases that each closed without resolving it, and a chain of title that moved among the same small set of people each time enforcement drew close — most recently into an LLC co-managed by the property's two prior owners of record.</p>
+<p>Published with it: an open letter to Council Member Duchen, the chain of title, the 2018 administrative citation, the complaint index, and the Texas filing for 7609 Creekbluff LLC.</p>
+<a class="latest__more" href="nine-years-on-creekbluff.html">Read the investigation &#8594;</a> <a class="latest__more latest__more--alt" href="open-letter.html">The open letter &#8594;</a>
+</div>
+</details>
+
 </div>
 </div></section>
 
@@ -365,6 +413,11 @@ Source records &amp; corrections: <a href="https://github.com/wavecentral/7609-C
 
 <script>
 (function(){var b=document.getElementById('progressBar');function u(){var h=document.documentElement,st=h.scrollTop||document.body.scrollTop,sh=(h.scrollHeight||document.body.scrollHeight)-h.clientHeight;b.style.width=(sh>0?(st/sh*100):0)+'%';}window.addEventListener('scroll',u,{passive:true});window.addEventListener('resize',u);u();})();
+</script>
+<script>
+(function(){var ds=[].slice.call(document.querySelectorAll('.latest__d'));if(!ds.length)return;var was=[];
+ window.addEventListener('beforeprint',function(){was=ds.map(function(d){var o=d.open;d.open=true;return o;});});
+ window.addEventListener('afterprint',function(){ds.forEach(function(d,i){d.open=was[i];});});})();
 </script>
 </body>
 </html>
