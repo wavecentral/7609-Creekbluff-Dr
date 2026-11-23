@@ -132,10 +132,9 @@ Years of correspondence among neighbors, HOA board members, and City officials u
 
 ---
 
-## How to contribute
+## Corrections & contributions
 
-- **Corrections** to any factual claim — please include a source reference — via [GitHub Issues](https://github.com/wavecentral/7609-Creekbluff-Dr/issues).
-- **Additional public records** (permit records, hearing records, later notices) obtained through your own requests are especially valuable.
+Corrections to any factual claim are welcome — please include a source reference. Additional public records (permit records, hearing records, later notices) obtained through your own requests are especially valuable. Contact the maintainer directly.
 
 ---
 
